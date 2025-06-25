@@ -1,63 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>🛡️ Woman Security System</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(to right, #f9f9f9, #eaf0f9);
-      color: #2e2e2e;
-      padding: 40px;
-      line-height: 1.8;
-    }
-    h1 {
-      color: #b30059;
-      font-size: 2.5rem;
-    }
-    h2 {
-      color: #004080;
-      margin-top: 2em;
-      border-bottom: 2px solid #ccc;
-      padding-bottom: 5px;
-    }
-    pre, code {
-      background: #1e1e1e;
-      color: #dcdcdc;
-      padding: 10px;
-      border-radius: 5px;
-      font-family: 'Courier New', Courier, monospace;
-      font-size: 0.95rem;
-    }
-    ul {
-      list-style-type: square;
-      margin-left: 20px;
-    }
-    a {
-      color: #0066cc;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    .section {
-      margin-bottom: 50px;
-    }
-    .badge {
-      background-color: #ff0066;
-      color: white;
-      padding: 5px 15px;
-      border-radius: 20px;
-      font-size: 0.85rem;
-      display: inline-block;
-      margin-top: 10px;
-    }
-  </style>
-</head>
-<body>
-
-  <h1>🛡️ Woman Security System</h1>
+<h1>🛡️ Woman Security System</h1>
   <p class="badge">AI-Powered | Real-Time Risk Detection | Privacy-First</p>
 
   <div class="section">
@@ -122,5 +63,3 @@ streamlit run app.py</code></pre>
     🔗 GitHub: <a href="https://github.com/Asarafhack" target="_blank">Asarafhack</a></p>
   </div>
 
-</body>
-</html>
