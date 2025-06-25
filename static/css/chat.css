@@ -1,0 +1,36 @@
+#chatbox {
+    width: 50%;
+    margin: 50px auto;
+    text-align: left;
+}
+
+#messages {
+    height: 200px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    overflow-y: auto;
+    background-color: #f1f1f1;
+}
+
+form {
+    margin-top: 10px;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

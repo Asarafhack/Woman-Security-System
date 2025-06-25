@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Women Security System</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      height: 100vh;
+      background: url('https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?auto=format&fit=crop&w=1470&q=80') no-repeat center center/cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      position: relative;
+      overflow: hidden;
+      text-align: center;
+    }
+
+    body::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.6);
+      z-index: 0;
+    }
+
+    .container {
+      z-index: 1;
+      animation: fadeInUp 1s ease forwards;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 30px;
+      animation: slideIn 1s ease;
+    }
+
+    .nav-links {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      background: linear-gradient(135deg, #f72585, #7209b7);
+      padding: 15px 30px;
+      border: none;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 30px;
+      transition: transform 0.3s, box-shadow 0.3s;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .btn:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+    }
+
+    @keyframes fadeInUp {
+      from {
+        transform: translateY(20px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    @keyframes slideIn {
+      from {
+        opacity: 0;
+        transform: translateY(-50px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+
+      .btn {
+        padding: 12px 20px;
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Women Security System</h1>
+    <div class="nav-links">
+      <a href="/chat" class="btn">Start Chatting</a>
+      <a href="/profile" class="btn">View Profile</a>
+    </div>
+  </div>
+</body>
+</html>
